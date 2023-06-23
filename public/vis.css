@@ -1,0 +1,10 @@
+svg {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border:#000 solid 1px;
+}
+
+svg text {
+    fill: #001818;
+}
