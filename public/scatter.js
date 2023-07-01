@@ -32,7 +32,7 @@ const figureSize = {
     width: svgSize.width - margin.left * 2,
     height: svgSize.height - margin.top * 2
 }
-const text = await fetch('/iris.csv').then(res => res.text());
+const text = await fetch('/datasets/iris.csv').then(res => res.text());
 
 const data = d3.csvParse(text, d3.autoType);
 window.data = data;
